@@ -4,23 +4,23 @@ body {
 	background-repeat:no-repeat;
 	background-size: 106%;
 	text-align:center;
+	margin:0;
+	padding:0;
 }
 nav{
 	text-align: center;
 	margin-top: 4%;
-	padding: 0px;
 }
 li{
 	list-style: none;
-	display: inline;
-	padding-bottom: ;
+	display: inline;	
 }
 li a{
 	color: white;
 	text-decoration: none;
 	text-align: center;
-    padding: 14% 16px;
-    font-size: 150%;
+	padding: 1% 14px;
+    font-size: 130%;
 }
 li a:hover{
 	color: gold;
@@ -30,15 +30,14 @@ li a:hover{
 	margin-top:4%;
 }
 ul{
-	padding-top: 3%;
+	margin-top:1%;
 }
 #triforce{
-	background-color:rgba(0,0,0,0.4);
-	padding-bottom: 1.5%;
-	margin-top: 2%;
+	background-color:rgba(0,0,0,0.5);
+	height: 9%;
 	margin-left: 5%; 	
 	margin-right: 5%;
-}
+	}
 h1{
 	color: #e41d18;
 	padding-top: 0.5%;
@@ -61,8 +60,25 @@ h3{
 
 }
 hr{
-	margin-right: 27%;
-	margin-left: 27%;
+	margin-right: 34%;
+	margin-left: 34%;
 	margin-top: -1%;
 	color: gold;
+}
+footer{
+	background-image: url("../Images/footer.jpg");
+	color: white;
+	margin-top:24%;
+}
+
+
+footer{
+    background-image: url("../Images/marble.jpg");
+    color: white;
+}
+footer a img{
+    width: 6%;
+}
+footer b img{
+    width: 5.5%;
 }

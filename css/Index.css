@@ -4,10 +4,9 @@ body{
 	background-repeat: no-repeat;
 	text-align: center;
 	font-style: normal;
-	
 	font-family: 'Source Sans Pro', sans-serif;
-	
-	height:8000px;
+	margin:0;
+	padding:0;
 }
 nav{
 	text-align: center;
@@ -22,8 +21,8 @@ li a{
 	color: white;
 	text-decoration: none;
 	text-align: center;
-    padding: 14px 16px;
-    font-size: 24pt;
+    padding: 1% 16px;
+    font-size: 150%;
 }
 li a:hover{
 	color: gold;
@@ -88,5 +87,17 @@ hr{
 footer{
 	background-image: url("../Images/footer.jpg");
 	color: white;
-}body {
+	margin-top:24%;
+}
+
+
+footer{
+    background-image: url("../Images/marble.jpg");
+    color: white;
+}
+footer a img{
+    width: 6%;
+}
+footer b img{
+    width: 5.5%;
 }

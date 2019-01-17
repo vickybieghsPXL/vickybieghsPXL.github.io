@@ -1,14 +1,32 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
-	background-image: url("../images/blue.jpg");
+	background-image: url("../images/interior4.jpg");
 	background-repeat:no-repeat;
 	background-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+	padding:0;
 }
-h1 {
-    color: white;
-    font-weight: 900;
+nav{
+	text-align: center;
+	margin-top: 4%;
+	margin-left:-3%;
+	padding: 0px;
 }
-
+li{
+	list-style: none;
+	display: inline;	
+}
+li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+    padding: 1% 16px;
+    font-size: 125%;
+}
+li a:hover{
+	color: gold;
+}
 h3 {
     color: white;
 }
@@ -27,9 +45,9 @@ h3 {
 	margin-left:25%;
 }
 #contact{
-	margin-left:25%;
+	margin-left:28%;
 	font-size:50pt;
-	margin-top:-2%;
+	margin-top:-1%;
 }
 #middle {
     flex: 1;
@@ -64,26 +82,18 @@ h1 a {
 h1 a:hover {
 	color: gold;
 }
-nav{
-	text-align: center;
-	margin-top: 4%;
-	padding: 0px;
-	margin-bottom:7%;
-}
-li{
-	list-style: none;
-	display: inline;	
-}
-li a{
-	color: white;
-	text-decoration: none;
-	text-align: center;
-    padding: 14px 16px;
-    font-size: 24pt;
-}
-li a:hover{
-	color: gold;
-}
 header{
 	margin-left: 3%;
+}
+
+footer{
+    background-image: url("../Images/marble.jpg");
+    color: white;
+	text-align:center;
+}
+footer a img{
+    width: 6%;
+}
+footer b img{
+    width: 5.5%;
 }

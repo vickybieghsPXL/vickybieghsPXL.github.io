@@ -1,3 +1,9 @@
+@media screen and (max-width: 1700px) {
+    #goud {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     #goud {
         display: none;
@@ -6,6 +12,4 @@
     #foto {
         display: none;
     }
-
 }
-

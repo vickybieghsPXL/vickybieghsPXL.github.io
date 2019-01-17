@@ -30,6 +30,7 @@ li a:hover{
 header{
 	margin-left: 3%;
 	margin-top: 10%;
+	padding-bottom: 10%;
 }
 
 #logo {
@@ -75,6 +76,7 @@ h1 a:hover {
 	height: 9%;
 	margin-left: 5%; 	
 	margin-right: 5%;
+	margin-bottom: 3.5%;
 }
 hr{
 	margin-top: 2%;
@@ -82,22 +84,38 @@ hr{
 	margin-bottom: 2%;
 }
 
-
-
 footer{
 	background-image: url("../images/marble.jpg");
 	color: white;
-	margin-top:24%;
+	padding-top: 5.5%;
 }
 
-
-footer{
-    background-image: url("../images/marble.jpg");
-    color: white;
-}
 footer a img{
-    width: 6%;
+    width: 2.5%;
+	float: right;
+	padding-right: 5.2%;
 }
 footer b img{
-    width: 5.5%;
+    width: 2.75%;
+	float: right;
+	margin-top: -1.25%;
+	padding-right: 5%;
 }
+#table2 {
+	padding-top: -2%;
+	margin-left: 41%;
+}
+#table1{
+	text-align: center;
+	margin-left: 4%;
+	margin-bottom: -5.5%;
+	
+}
+#table2{
+	text-align: center;
+	margin-left: 45%;
+	margin-top: -3.5%;
+	padding-bottom: 3.5%;
+}
+
+

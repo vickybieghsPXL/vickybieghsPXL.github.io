@@ -68,17 +68,38 @@ hr{
 footer{
 	background-image: url("../images/marble.jpg");
 	color: white;
-	margin-top:24%;
+	margin-top:4%;
 }
 
-
-footer{
-    background-image: url("../images/marble.jpg");
-    color: white;
-}
 footer a img{
-    width: 6%;
+    width: 2.5%;
+	float: right;
+	padding-right: 5.2%;
 }
 footer b img{
-    width: 5.5%;
+    width: 2.75%;
+	float: right;
+	margin-top: -1.25%;
+	padding-right: 5%;
 }
+#table2 {
+	padding-top: -2%;
+	margin-left: 41%;
+}
+#table1{
+	text-align: center;
+	margin-left: 4%;
+	margin-bottom: -5.5%;
+	
+}
+#table2{
+	text-align: center;
+	margin-left: 45%;
+	margin-top: -3.5%;
+	padding-bottom: 3.5%;
+}
+footer{
+	padding-top: 5.5%;
+}
+
+

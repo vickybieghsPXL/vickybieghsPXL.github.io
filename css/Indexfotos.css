@@ -1,0 +1,124 @@
+body{
+	background-image:url("../images/image6.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+}
+
+nav{
+	text-align: center;
+	margin-top: 3.6%;
+	padding: 0px;
+	margin-bottom: 7%;
+}
+li{
+	list-style: none;
+	display: inline;	
+}
+li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+    padding: 1% 16px;
+    font-size: 150%;
+}
+li a:hover{
+	color: gold;
+}
+header{
+	margin-left: 3%;
+	margin-top: 4%;
+	margin-right: 6%;
+	width: inherit;
+	color:#782021
+	
+}
+header img{
+	max-width: 50%;
+	height: auto;
+	width: auto;
+}
+#tekst{
+}
+section a img{
+	width: 50%;
+	max-width: 20%;
+	margin-right: 0.25%;
+	margin-top: -1.75%;
+	
+}
+#triforce{
+	background-color:rgba(0,0,0,0.4);
+	padding-bottom: 1.5%;
+	margin-top: 2%;
+	margin-left: 5%; 	
+	margin-right: 5%;
+}
+
+$bg: rgba(0, 0, 0, 0.2);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85vw;
+  margin: 1rem auto;
+}
+
+
+.bg,
+.overlay {
+  text-align: center;
+}
+
+img,
+.overlay {
+  transition: .3s all;
+  border-radius: 3px;
+}
+
+.bg {
+  float: left;
+  max-width: 31%;
+  position: relative;
+  margin: .5%;
+  img {
+    width: 100%;
+    margin-bottom: -4px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: $bg;
+    color: #fff;
+    opacity: 0;
+    h2 {
+      padding-top: 20%;
+      font-family: 'Droid Serif', serif;
+    }
+    p {
+      font-family: 'Julius Sans One', sans-serif;
+    }
+  }
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+    img {
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
+}
+
+
+

@@ -1,0 +1,68 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+	background-image: url("../images/image5.png");
+	background-repeat:no-repeat;
+	background-size: 106%;
+	text-align:center;
+}
+nav{
+	text-align: center;
+	margin-top: 4%;
+	padding: 0px;
+}
+li{
+	list-style: none;
+	display: inline;
+	padding-bottom: ;
+}
+li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+    padding: 14% 16px;
+    font-size: 150%;
+}
+li a:hover{
+	color: gold;
+}
+
+#text{
+	margin-top:4%;
+}
+ul{
+	padding-top: 3%;
+}
+#triforce{
+	background-color:rgba(0,0,0,0.4);
+	padding-bottom: 1.5%;
+	margin-top: 2%;
+	margin-left: 5%; 	
+	margin-right: 5%;
+}
+h1{
+	color: #e41d18;
+	padding-top: 0.5%;
+	text-shadow: 1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 1.5px black;
+	font-size: 190%;
+	
+}
+h2{
+	color: #e41d18;
+	padding-top: 3%;
+	text-shadow: 1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 1.5px black;
+    font-size: 190%;
+	
+}
+h3{
+	color: white;
+	line-height: 25%;
+	text-shadow: -0.5px 0 #e41d18, 0 0.5px #e41d18, 0.5px 0 #e41d18, 0 -0.5px #e41d18;
+	font-size: 100%;
+
+}
+hr{
+	margin-right: 27%;
+	margin-left: 27%;
+	margin-top: -1%;
+	color: gold;
+}

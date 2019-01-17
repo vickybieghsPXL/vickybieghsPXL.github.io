@@ -1,0 +1,92 @@
+body{
+	background-image: url("../images/interior.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-style: normal;
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	
+	height:8000px;
+}
+nav{
+	text-align: center;
+	margin-top: 4%;
+	padding: 0px;
+}
+li{
+	list-style: none;
+	display: inline;	
+}
+li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+    padding: 14px 16px;
+    font-size: 24pt;
+}
+li a:hover{
+	color: gold;
+}
+header{
+	margin-left: 3%;
+	margin-top: 10%;
+}
+
+#logo {
+	height: 80%;
+	width: 50%;
+}
+
+#text {
+	height: 10%;
+	max-width: 1px;
+}
+
+#emptySpace {
+	margin-top: 100%;
+}
+
+#goud {
+	margin-bottom: 5%;
+}
+
+h1 {
+	display: inline-block;
+	border: 20px solid #e41d18;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	border-radius: 500px;
+	background-color: #e41d18;
+	font-size: 150%;
+}
+
+h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: gold;
+}
+#triforce{
+	background-color:rgba(0,0,0,0.5);
+	height: 9%;
+	margin-left: 5%; 	
+	margin-right: 5%;
+}
+hr{
+	margin-top: 2%;
+	width: 91%;
+	margin-bottom: 2%;
+}
+
+
+
+footer{
+	background-image: url("../Images/footer.jpg");
+	color: white;
+}body {
+}
